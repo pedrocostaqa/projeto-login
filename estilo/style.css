@@ -2,7 +2,41 @@
 
 /* Paleta de cores
 Marrom : #9D7470
-Marrom claro: #915B54
+Marrom claro: #c27d74
 Laranja: #E64D39
 Cinza: #3C3535
 */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #c27d74 ;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    background-color: white;
+    width: 300px;
+    height: 515px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+}
