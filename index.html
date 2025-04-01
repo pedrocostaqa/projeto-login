@@ -18,16 +18,19 @@
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar a sua conta.</p>
-                <form action="login.js" method="post"></form>
-                <label for="ilog"></label>
-                <span class="material-symbols-outlined">face</span>
-                <input type="email" name="log" id="ilog" placeholder="seu e-mail"> <br>
-                <label for="isen"></label><span class="material-symbols-outlined">key</span>
-                <input type="password" name="senha" id="isen" placeholder="sua senha">
+                <form action="login.js" method="post" autocomplete="on"></form>
+                <div class="campo">
+                    <label for="ilog"><span class="material-symbols-outlined">face</span></label>
+                    <input type="email" name="log" id="ilog" placeholder="seu e-mail"  autocomplete="email" required maxlength="30">
+                </div>
+                <div class="campo">
+                    <label for="isen"><span class="material-symbols-outlined">key</span></label>
+                    <input type="password" name="senha" id="isen" placeholder="sua senha" autocomplete="current-password" required minlength="8" maxlength="20">
+                </div>
             </div>
             <div>
                 <input type="submit" value="Entrar">
-                <input type="button" value="Esqueci a senha">
+                <input type="button" value="Esqueci a senha"> <span class="material-symbols-outlined">mail</span>
             </div>
         </section>
     </main>
