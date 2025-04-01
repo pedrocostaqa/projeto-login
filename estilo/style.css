@@ -10,11 +10,14 @@ Cinza: #3C3535
 * {
     margin: 0px;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
 }
 
-body {
-    background-color: #c27d74 ;
+body, html {
+    background-color: #c27d74;
+    height: 100vh;
+    width: 100vw;
 }
 
 main {
@@ -25,18 +28,34 @@ main {
 
 section#login {
     background-color: white;
-    width: 300px;
+    width: 250px;
     height: 515px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 20px;
-    padding: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.425);
     
+}
+
+section#login > div#imagem {
+    background: #c27d74 url(../imagens/imglog.jpg) no-repeat ;
+    height: 200px;
+    background-size: cover;
+    background-position: top center;
+    display: block;
+}
+
+section#login > div#formulario {
+    padding: 10px;
+    display: block;
 }
 
 h1 {
     text-align: center;
     padding: 10px;
 }
+
+
