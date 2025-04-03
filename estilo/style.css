@@ -65,6 +65,15 @@ div#formulario > p {
     font-size: 0.8em;
 }
 
+div.campo {
+    background-color: #5c2722;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+
+
 input[type=submit] {
     display: block;
     font-size: 1em;
