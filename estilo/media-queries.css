@@ -19,7 +19,17 @@
     body {
         background-image: linear-gradient(to top, #E64D39, #9D7470);
     }
+
+    input[type=submit] {
+          width: 68%;
+    }
+
+    input[type=button] {
+          width: 68%;
+    }     
 }
+
+
 
 @media screen and (min-width:992px) {
     section#login {
@@ -49,4 +59,12 @@
     div#formulario > p {
         font-size: 1.2em;
     }
+
+    input[type=submit] {
+        width: 49%;
+  }
+
+  input[type=button] {
+       width: 49%;
+  }
 }

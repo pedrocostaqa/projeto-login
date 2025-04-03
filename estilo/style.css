@@ -65,3 +65,40 @@ div#formulario > p {
     font-size: 0.8em;
 }
 
+input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 90%;
+    margin: auto;
+    height: 40px;
+    background-color: #E64D39;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type=submit]:hover {
+    background-color: #e64d39d8;
+    cursor: pointer;
+}
+
+input[type=button] {
+    width: 90%;
+    font-size: 1em;
+    height: 40px;
+    display: block;
+    margin: auto;
+    background-color: #815752;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    color: white;
+}
+
+input[type=button]:hover {
+    background-color: #a56f69;;
+    cursor: pointer;
+}
+
+
+
